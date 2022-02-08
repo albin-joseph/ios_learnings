@@ -99,3 +99,17 @@ default:
     print("Everything tastes good in soup.")
 }
 
+var numberGroups = [
+    "Prime":[2,3,5,7,11,13,17,23,29,31,37],
+"Fibonnacci":[0,1,1,2,3,5,8,13,21,34,55],
+    "Square":[1,4,9,16,25,36,49,64,81]]
+var largest = 0
+for (_,numbers) in numberGroups{
+    for number in numbers{
+        if number>largest{
+            largest = number
+    }
+}
+}
+print(largest)
+        
