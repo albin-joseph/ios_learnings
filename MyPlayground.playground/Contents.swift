@@ -1,4 +1,6 @@
 import UIKit
+/**This file is used to learn the basic concepts of swift programming. Including variable constants and all data type concepts.**/
+
 /**This is a program that I am creating to learn Swift and Git**/
 var value:Float = 4
 print(value)
